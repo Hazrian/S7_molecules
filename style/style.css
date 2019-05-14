@@ -1,4 +1,26 @@
+/****************
+*               *
+*    Layout     *
+*               *
+****************/
+
 .center
 {
     text-align: center;
+}
+
+nav#general
+{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    border-radius: 5px;
+    border: 1px solid #78C2AD;
+    padding: 20px
+}
+
+#general li
+{
+    list-style: none;
+    margin-left: -40px;
 }
