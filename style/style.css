@@ -97,3 +97,16 @@ footer a, footer a:hover, footer a:focus, footer a:visited, footer a:active
     background-size: cover;
     background-position-y: center;
 }
+
+
+/****************
+*               *
+*      Card     *
+*               *
+****************/
+
+
+.col-md-4
+{
+	padding: 0;
+}
