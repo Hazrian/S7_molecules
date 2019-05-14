@@ -9,6 +9,7 @@
 	--primary: #78C2AD;
     --secondary: #F3969A;
     --info: #6CC3D5;
+    --light: #f8f9fa;
     --dark: #343a40;
 }
 
@@ -56,6 +57,43 @@ footer a, footer a:hover, footer a:focus, footer a:visited, footer a:active
 
 /****************
 *               *
-*      Form     *
+*    Banner     *
 *               *
 ****************/
+
+.jumbotron.banner-bg
+{
+    height: 50vh;
+    background-image: url("img/pineapples.jpg");
+    background-size: cover;
+    background-position-y: center;
+}
+
+
+.jumbotron h1
+{
+    font-size: 10vh;
+    color: var(--primary);
+    text-shadow: 5px 5px 10px var(--primary);
+}
+
+.jumbotron.banner-bg p
+{
+    font-size: 3vh;
+    color: var(--light);
+    text-align: center;
+}
+
+.jumbotron.banner-bg .btn
+{
+    background: var(--secondary);
+    font-weight: bold;
+}
+
+.jumbotron.banner-sm
+{
+    height: 25vh;
+    background-image: url("img/pineapple.jpg");
+    background-size: cover;
+    background-position-y: center;
+}
