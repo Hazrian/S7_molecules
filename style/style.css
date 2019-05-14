@@ -19,6 +19,8 @@
 *               *
 ****************/
 
+h1 {text-align: center;}
+
 .center
 {
     text-align: center;
@@ -52,4 +54,8 @@ footer a, footer a:hover, footer a:focus, footer a:visited, footer a:active
     font-weight: bold;
 }
 
-
+/****************
+*               *
+*      Form     *
+*               *
+****************/
