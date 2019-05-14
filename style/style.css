@@ -1,5 +1,20 @@
 /****************
 *               *
+*   Variables   *
+*               *
+****************/
+
+:root
+{
+	--primary: #78C2AD;
+	--secondary: #F3969A;
+}
+
+
+
+
+/****************
+*               *
 *    Layout     *
 *               *
 ****************/
@@ -15,7 +30,7 @@ nav#general
     bottom:0;
     left: 0;
     border-radius: 5px;
-    border: 1px solid #78C2AD;
+    border: 1px solid var(--primary);
     padding: 20px
 }
 
@@ -24,3 +39,10 @@ nav#general
     list-style: none;
     margin-left: -40px;
 }
+
+a, a:hover, a:focus, a:visited, a:active
+{
+	color: var(--secondary);
+}
+
+
