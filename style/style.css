@@ -99,3 +99,21 @@ footer a, footer a:hover, footer a:focus, footer a:visited, footer a:active
     display: flex;
     align-items: center;
 }
+
+/****************
+*               *
+*  Ressources   *
+*               *
+****************/
+
+.mockup-img
+{
+    background-color: var(--gray);
+    border-radius: 5px;
+    min-height: 200px;
+}
+
+.type-event
+{
+    font-size: 2rem;
+}
