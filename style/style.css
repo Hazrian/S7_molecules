@@ -7,10 +7,10 @@
 :root
 {
 	--primary: #78C2AD;
-	--secondary: #F3969A;
+    --secondary: #F3969A;
+    --info: #6CC3D5;
+    --dark: #343a40;
 }
-
-
 
 
 /****************
@@ -40,9 +40,16 @@ nav#general
     margin-left: -40px;
 }
 
-a, a:hover, a:focus, a:visited, a:active
+/****************
+*               *
+*    Footer     *
+*               *
+****************/
+
+footer a, footer a:hover, footer a:focus, footer a:visited, footer a:active
 {
-	color: var(--secondary);
+    color: var(--dark);
+    font-weight: bold;
 }
 
 
