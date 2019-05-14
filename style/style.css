@@ -1,21 +1,5 @@
 /****************
 *               *
-*   Variables   *
-*               *
-****************/
-
-:root
-{
-	--primary: #78C2AD;
-    --secondary: #F3969A;
-    --info: #6CC3D5;
-    --light: #f8f9fa;
-    --dark: #343a40;
-}
-
-
-/****************
-*               *
 *    Layout     *
 *               *
 ****************/
@@ -105,8 +89,13 @@ footer a, footer a:hover, footer a:focus, footer a:visited, footer a:active
 *               *
 ****************/
 
-
 .col-md-4
 {
 	padding: 0;
+}
+
+.card-body
+{
+    display: flex;
+    align-items: center;
 }
